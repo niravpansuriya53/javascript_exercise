@@ -49,4 +49,37 @@ function click1()
     
    
 
-  
+  // table = document.getElementById("data")
+    // let row = table.insertRow(-1);
+
+    // let c1 = row.insertCell(0);
+    // let c2 = row.insertCell(1);
+    // let c3 = row.insertCell(2);
+    // let c4 = row.insertCell(3);
+    // let c5 = row.insertCell(4);
+    // let c6 = row.insertCell(5);
+    // let c7 = row.insertCell(6);
+    // let c8 = row.insertCell(7);
+    // let c9 = row.insertCell(8);
+    // let c10 = row.insertCell(9)
+
+    // c1.innerHTML = document.getElementById("name").value;
+    // c2.innerHTML = document.getElementById("email").value;
+    // c3.innerHTML = document.querySelector('input[name="gender"]:checked').value;
+    //     var checkedValue = ""; 
+    //     var inputElements = document.getElementsByName('checkbox');
+    //         for(var i=0; inputElements[i]; ++i)
+    //         {
+    //                 if(inputElements[i].checked)   
+    //                 {
+    //                     checkedValue += inputElements[i].value +",";
+                    
+    //                 }
+    //         } 
+    // c4.innerHTML = checkedValue;
+    // c5.innerHTML = document.getElementById("age").value;
+    // c6.innerHTML = document.getElementById("country").value;
+    // c7.innerHTML = document.getElementById("state").value;
+    // c8.innerHTML = document.getElementById("city").value;
+    // c9.innerHTML = `<button id='updateid' onclick='update(${i})';>Edit</button>`;
+    // c10.innerHTML = "<button   onclick='myfunction(this)'; >Remove</button>";
