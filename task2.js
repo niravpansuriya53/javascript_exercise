@@ -151,3 +151,14 @@ function myfunction(r)
 
 
 
+// function state(val)
+// {
+//     let state = document.getElementById("state");
+//     let city = document.getElementById("city");
+//     state.length=1
+//     // city.length=1
+//     for(let x in st[val])
+//     {
+//         state.options[state.options.length]= new Option(x,x)
+//     }
+// } 
