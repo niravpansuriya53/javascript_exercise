@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: solid 1px ;
+        }
+        span{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body >
+    <form action="" id="f1" onsubmit="event.preventDefault()">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" ><br>
+        <span id="spname"></span><br><br>
+     
+        
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email"><br>
+        <span id="spemail"></span><br><br>
+
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender1" name="gender" value="male">Male
+        <input type="radio" id="gender2" name="gender" value="female">Female <br>
+        <span id="spgender"></span><br><br>
+
+
+        <label for="hobbies">Hobbies: </label>
+        <!-- <input type="text" id="hobbies"> -->
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="">Reading</label>
+        <input type="checkbox" id="travelling" name="hobbies" value="travelling">
+        <label for="travelling">Travelling</labe>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+        <span id="sphobbies"></span><br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age"><br>
+        <span id="spage"></span><br><br>
+
+        <label for="country">Country: </label>
+            <select name="country" id="country" name="country" onchange="state1(this.value)">
+                <option value="select state">Select Country</option>
+            </select><br>
+        <span id="spcountry"></span><br><br>
+
+
+        <label for="state">State: </label>
+            <select name="state" id="state" name="state" onchange="city1(this.value)">
+                <option value="select state">Select State</option>
+            </select><br>
+        <span id="spstate"></span><br><br> 
+
+        <label for="city">City: </label>
+            <select name="city" id="city" name="city">
+                    <option value="select city">select City</option>
+            </select><br><br>
+        <span id="spcity"></span><br><br>
+
+        <button id="submit" type="submit" onclick="click1()" style="background-color: rgb(130, 191, 230);">Submit</button>
+        <p id="p1"></p>
+        <input type="text" id="inpsearch" name="inpsearch">
+        <button type="submit" id="search" onclick="search1()">Search</button><br><br>
+        <label for="">Sorting</label>
+        <select name="sort" id="sorting" onchange="sort1()">
+            <option value="--Select--" id="">--Select--</option>
+            <option value="Ascending" id="asc">Ascending</option>
+            <option value="Descending" id="desc">Descending</option>
+        </select>
+
+    </form>
+     <table id="data">
+         <thead id="thead">
+             <th>Name</th>
+             <th>Email</th>
+             <th>Gender</th>
+             <th>Hobbies</th>
+             <th>Age</th>
+             <th>Country</th>
+             <th>State</th>
+             <th>city</th>
+             <th>Edit</th>
+             <th>Remove</th>
+        </thead>
+         <tbody id="tbody">
+
+         </tbody>
+     </table>
+     <script src="task2.js"></script>
+     <script src="v1.js"></script>
+     <script src="task4.js"></script>
+     <script src="task5.js"></script>
+     <script src="6.js"></script>
+     <script src="serche.js"></script>
+     <script src="sort.js"></script>
+
+     
+
+
+</body>
+</body>
+</html> 
+<label>
+    
